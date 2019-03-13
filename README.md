@@ -1,4 +1,4 @@
-# Blank React component
+# ⚛️ Blank React component
 
 > Blank component when you need to create a new one.
 
