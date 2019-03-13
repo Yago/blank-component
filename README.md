@@ -9,11 +9,31 @@ Made to work with :
 - 📖 [Storybook](https://storybook.js.org) for doc
 - 🧪 [Jest](https://jestjs.io) and [Enzyme](https://airbnb.io/enzyme/) for tests
 
-Those are the full recommanded dependencies :
+Those are the full recommended dependencies (additional to [CRA deps](https://facebook.github.io/create-react-app/)) :
 
 ```sh
 $ yarn add @emotion/core @emotion/styled @storybook/react @storybook/theming prop-types react react-dom enzyme enzyme-adapter-react-16
 ```
 
 ## How to use
+
+### 1. Use from Github
+
+```sh
+$ wget https://github.com/Yago/blank-component/archive/master.zip
+$ unzip master.zip
+$ mv ./blank-component-master/src/Blank ./path/to/components/Blank
+```
+
+### 2. Reuse from local
+
+I recommend using [Generact](https://github.com/diegohaz/generact).
+
+```sh
+$ generact # and follow the steps
+# or
+$ mv ./path/to/components/Blank ./path/to/components/NewComponent
+# Edit everything
+
+```
 
