@@ -12,7 +12,7 @@ Made to work with :
 Those are the full recommended dependencies (additional to [CRA deps](https://facebook.github.io/create-react-app/)) :
 
 ```sh
-$ yarn add @emotion/core @emotion/styled @storybook/react @storybook/theming prop-types react react-dom enzyme enzyme-adapter-react-16
+$ yarn add @emotion/core @emotion/styled @storybook/react @storybook/theming prop-types react react-dom enzyme enzyme-adapter-react-16 @babel/core babel-loader
 ```
 
 ## How to use
