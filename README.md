@@ -23,6 +23,7 @@ $ yarn add @emotion/core @emotion/styled @storybook/react @storybook/theming pro
 $ wget https://github.com/Yago/blank-component/archive/master.zip
 $ unzip master.zip
 $ mv ./blank-component-master/src/Blank ./path/to/components/Blank
+$ rm -rf ./master.zip ./blank-component-master
 ```
 
 ### 2. Reuse from local
