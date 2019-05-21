@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount, shallow, configure } from 'enzyme';
-import Blank from '../Blank';
+import Blank from './Blank';
 import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter() });
