@@ -38,3 +38,12 @@ $ mv ./path/to/components/Blank ./path/to/components/NewComponent
 
 ```
 
+### 3. New NPM scripts
+
+You can also add the following scripts to your `package.json` :
+
+```json
+  "storybook": "start-storybook -p 6006",
+  "build-storybook": "build-storybook",  
+```
+
